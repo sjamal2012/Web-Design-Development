@@ -1,0 +1,27 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.pic_wrap{
+    display:block;
+}
+.wrapper_ninja{
+    position: absolute;
+    top:0;
+    padding:10px;
+    width: 181px;
+    font-size: 0px;
+    z-index: 1;
+}
+.wrapper_cat{
+    position: absolute;
+    top:0;
+    padding:10px;
+    margin:auto;
+    width: 181px;
+    font-size: 0px;
+}
+img{
+    display:inline-block;
+    margin-bottom: 5px;
+}

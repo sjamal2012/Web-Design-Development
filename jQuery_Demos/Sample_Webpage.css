@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+body{
+    width:970px;
+}
+.wrapper{
+    width: 550px;
+    text-align: center;
+    padding: 0px 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.sections{
+    vertical-align: middle;
+    padding: 10px 0px;
+}
+img{
+    display:none;
+    margin:auto;
+}
+.content{
+    padding: 10px 0px;
+    text-align:left;
+}
+button{
+    display:inline-block;
+    padding: 0px 10px;
+    box-shadow: 3px 3px 5px;
+    margin-right: 20px;
+    width: 100px;
+    vertical-align: middle;
+}
+p{
+    display:inline-block;
+    width: 420px;
+    vertical-align: middle;
+}
+.new_p{
+    display:block;
+    text-align: center;
+}
+hr{
+    border: 2px solid black;
+    border-radius: 4px;
+    margin:auto;
+}
+.red{
+    color:red;
+}

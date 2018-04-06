@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ninja to Cat</title>
+        <link rel="stylesheet" href="Ninja_Cat.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var a=0;
+                var b=0;
+                var c=0;
+                var d=0;
+                var e =0;
+                $('.ninja1').click(function(){
+                    if(a%2 == 0){
+                        $(this).css('opacity','0')
+                        $(this).css('transition','0.5s')
+                        a++;
+                    }
+                    else {
+                        $(this).css('opacity','1')
+                        a++;
+                    }
+                });
+                $('.ninja2').click(function(){
+                    if(b%2 == 0){
+                        $(this).css('opacity','0')
+                        $(this).css('transition','0.5s')
+                        b++;
+                    }
+                    else {
+                        $(this).css('opacity','1')
+                        b++;
+                    }
+                });
+                $('.ninja3').click(function(){
+                    if(c%2 == 0){
+                        $(this).css('opacity','0')
+                        $(this).css('transition','0.5s')
+                        c++;
+                    }
+                    else {
+                        $(this).css('opacity','1')
+                        c++;
+                    }
+                });
+                $('.ninja4').click(function(){
+                    if(d%2 == 0){
+                        $(this).css('opacity','0')
+                        $(this).css('transition','0.5s')
+                        d++;
+                    }
+                    else {
+                        $(this).css('opacity','1')
+                        d++;
+                    }
+                });
+                $('.ninja5').click(function(){
+                    if(e%2 == 0){
+                        $(this).css('opacity','0')
+                        $(this).css('transition','0.5s')
+                        e++;
+                    }
+                    else {
+                        $(this).css('opacity','1')
+                        e++;
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="pic_wrap">
+            <div class="wrapper_ninja">
+                <img class="ninja1" src="http://res.cloudinary.com/lebspec/image/upload/v1508818295/ninja0_kgx6wz.png" alt="ninja1">
+                <img class="ninja2" src="http://res.cloudinary.com/lebspec/image/upload/v1508818295/ninja1_q2a86y.png" alt="ninja2">
+                <img class="ninja3" src="http://res.cloudinary.com/lebspec/image/upload/v1508818295/ninja2_oeqgxa.png" alt="ninja3">
+                <img class="ninja4" src="http://res.cloudinary.com/lebspec/image/upload/v1508818295/ninja3_ctqajh.png" alt="ninja4">
+                <img class="ninja5" src="http://res.cloudinary.com/lebspec/image/upload/v1508818295/ninja4_jpwhy2.png" alt="ninja5">
+            </div>
+            <div class="wrapper_cat">
+                <img class="cat1" src="http://res.cloudinary.com/lebspec/image/upload/v1508818282/cat0_iukeyf.png" alt="cat1">
+                <img class="cat2" src="http://res.cloudinary.com/lebspec/image/upload/v1508818285/cat1_fkoawp.png" alt="cat2">
+                <img class="cat3" src="http://res.cloudinary.com/lebspec/image/upload/v1508818292/cat2_djxfoz.png" alt="cat3">
+                <img class="cat4" src="http://res.cloudinary.com/lebspec/image/upload/v1508818295/cat3_sejbgc.png" alt="cat4">
+                <img class="cat5" src="http://res.cloudinary.com/lebspec/image/upload/v1508818295/cat4_sjcig7.png" alt="cat5">
+            </div>
+        </div>
+    </body>
+</html>

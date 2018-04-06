@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Sample_Webpage.css">
+        <title></title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('button.addclass_button').click(function(){
+                    $('p.addclass_p').addClass('red');
+                });
+                $('button.toggle_button').click(function(){
+                    $('img').slideToggle('slow');
+                });
+                $('button.appen_button').click(function(){
+                    $('#content').append('<p>This is a new paragraph!</p>');
+                    $('p').last().addClass('new_p');
+                });
+                $('button.hide').click(function(){
+                    $('p').hide('slow');
+                });
+                $('button.reveal').click(function(){
+                    $('p').show('slow');
+                });
+                $('button.slideUp').click(function(){
+                    $('.addclass_button, .toggle_button, .appen_button').slideUp('slow');
+                });
+                $('button.slideDown').click(function(){
+                    $('button').slideDown('slow');
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="sections">
+                <h1>AddClass</h1>
+                <div class="content">
+                    <button class="addclass_button">AddClass</button>
+                    <p class="addclass_p">Click the button to add class 'red' to this paragraph</p>
+                </div>
+            </div>
+            <hr>
+            <div class="sections">
+                <h1>SlideToggle</h1>
+                <img src="http://res.cloudinary.com/lebspec/image/upload/v1507929822/portfolio4_vxankx.png" alt="city_lights">
+                <div class="content">
+                    <button class="toggle_button">SlideToggle</button>
+                    <p class="slide_toggle">Click the button to slidetoggle a hidden image</p>
+                </div>
+            </div>
+            <hr>
+            <div class="sections">
+                <h1>Append</h1>
+                <div id='content' class="content">
+                    <button class="appen_button">Append</button>
+                    <p class="append">Click the button to append a new paragraph</p>
+                </div>
+            </div>
+            <hr>
+            <div class="sections">
+                <h2>Customize</h2>
+                <div class="content">
+                    <button class="hide">Hide</button>
+                    <p>Click the button to hide all of the descriptions.</p>
+                </div>
+                <div class="content">
+                    <button class="reveal">Reveal</button>
+                    <p>Click the button to reveal the descriptions.</p>
+                </div>
+                <div class="content">
+                    <button class="slideUp">Smush</button>
+                    <p>Click the button to smush the main buttons.</p>
+                </div>
+                <div class="content">
+                    <button class="slideDown">Un-Smush</button>
+                    <p>Click the button to un-smush the buttons.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
