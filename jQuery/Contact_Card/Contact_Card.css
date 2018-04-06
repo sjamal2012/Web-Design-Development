@@ -1,0 +1,96 @@
+body{
+    width: 900px;
+    margin:auto;
+}
+textarea.input_descript{
+    height: 80px;
+    width:168px;
+    word-wrap: normal;
+    font-family: "Times New Roman", Times, serif;
+}
+th{
+    padding-right: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.form{
+    padding: 20px 0px 0px 13px;
+    text-align: left;
+}
+.left_wrap{
+    display:inline-block;
+    width:400px;
+    margin:0px;
+    height:220px;
+}
+.list{
+    display:table;
+    border: 2px solid black;
+    padding:4px;
+    border-collapse: collapse;
+}
+li {
+    display:table-cell;
+    display:inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+h1{
+    margin:50px 0px 0px 0px;
+}
+hr{
+    margin:0px;
+    border:2px solid grey;
+    border-radius: 20px;
+}
+input{
+    margin: 5px 0px;
+}
+button{
+    display:inline-block;
+    border-radius: 2px;
+    border: 0.5px solid black;
+    background: linear-gradient(white, silver);
+    padding:5px 10px;
+    font-size: 18px;
+}
+.description_wrap{
+    position: absolute;
+    display:inline-block;
+    vertical-align: top;
+    font-size: 45px;
+    text-align: center;
+    margin:auto;
+    width: 600px;
+}
+.user_content{
+    display:inline-block;
+    vertical-align: top;
+    font-size: 45px;
+    padding:10px;
+    text-align: center;
+    margin:10px;
+    height:100px;
+    width:50%;
+    line-height: 50px;
+}
+.click_p{
+    display:inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    padding:10px;
+    height:auto;
+    text-align: left;
+    width:50%;
+    line-height:normal;
+}
+p{
+    display:inline-block;
+    font-size: 17px;
+    text-align: center;
+    margin:auto;
+    width: 100%;
+    vertical-align: bottom;
+    cursor:default;
+
+}

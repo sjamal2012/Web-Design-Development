@@ -1,0 +1,233 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-size:0px;
+    font-family: sans-serif;
+}
+#wrapper{
+    width:970px;
+    margin:auto;
+}
+#head_wrapper{
+    position:relative;
+}
+img.globe{
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    flex-shrink: 0;
+    vertical-align: middle;
+    top:5px;
+}
+p{
+    display:inline-block;
+    font-size: 15px;
+}
+p.main_title{
+    font-size: 50px;
+    color:#505050;
+    line-height: 50px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+span.net{
+    font-size: 50px;
+    color:#2d6d92;
+    line-height:50px;
+}
+p.secondary_title{
+    align-self: flex-end;
+    width:950px;
+    color: white;
+    font-size: 30px;
+    background: linear-gradient(#1d7bb3, #4d94bf,#1d7bb3);
+    padding: 10px;
+}
+#content_wrapper{
+    display:flex;
+    background: linear-gradient(#e8e8e8, white 30%);
+    height:800px;
+    padding-left: 5px;
+}
+#sidebar{
+    display:inline-block;
+    width:190px;
+    position:relative;
+}
+p.sidebar_header{
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+span.red_text{
+    font-size: 15px;
+    color:#ec0000;
+}
+p.sidebar_content{
+    font-size: 12px;
+    font-weight:800;
+    margin-bottom: 10px;
+}
+span.sidebar_highlights{
+    font-size: 12px;
+    color:#4d80bf;
+}
+button{
+    color:white;
+    font-size: 15px;
+    padding:8px 33px;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+button.watch_button{
+    background: linear-gradient(#4d94bf, #1d7bb3);
+}
+button.resource_button{
+    padding:8px 20px;
+    background: linear-gradient(#e49f01, #ff9900);
+}
+hr{
+    height: 2px;
+    width: 190px;
+    border: 0px;
+    background-color:#bbbbbb;
+    margin: 20px 0px;
+}
+#ad{
+    display:inline-block;
+    width:170px;
+    height: 270px;
+    font-size: 10px;
+    background: url(http://res.cloudinary.com/lebspec/image/upload/v1507836856/ad_background_nlgys8.png);
+    text-align: center;
+    padding:20px 10px;
+    box-shadow: 2px 2px 5px black;
+}
+p.ad_content{
+    font-size: 22px;
+    color:white;
+    text-align: center;
+}
+img.ad_pic{
+    width:50%;
+    margin: 10px 0px;
+}
+button.ad_button{
+    background: linear-gradient(#8ffaff, #0edee8);
+    padding: 5px 25px;
+    margin: 5px 0px;
+}
+#main_content{
+    display:inline-block;
+    width: 740px;
+    height: 600px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+#contact_info{
+    display:flex;
+    justify-content: space-between;
+}
+p.DNS_link{
+    padding:10px;
+}
+img.home_pic{
+    width: 5%;
+}
+#contact_clump{
+    display:flex;
+    width: 190px;
+}
+img.phone{
+    width:17%;
+    flex-shrink: 0;
+    align-self: center;
+    padding:5px;
+}
+p.phone_hours{
+    font-size: 10px;
+    align-self: flex-end;
+    width: 150px;
+    text-align: center;
+    align-self: center;
+}
+span.phone_number{
+    font-size: 20px;
+    color: #3edbe2;
+    font-weight: 800;
+}
+hr.long_line{
+    height: 1px;
+    width: 725px;
+    border: 0px;
+    background-color:#bbbbbb;
+    margin: 10px 0px;
+}
+header.blue_header{
+    color: #3785c7;
+    font-size: 20px;
+    font-weight: bold;
+}
+p.main_text{
+    font-weight:500;
+}
+span.cyan_text{
+    font-size: 15px;
+    color:#55dede;
+}
+span.bold{
+    font-size: 15px;
+    font-weight: 800;
+}
+ul{
+    margin-left: 45px;
+}
+ul li{
+    font-size: 15px;
+    list-style-position: inside;
+    list-style-type: disc;
+    text-indent: -20px;
+    margin-top: 5px;
+}
+img.flow_chart{
+    display:flex;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ol{
+    margin-left: 45px;
+}
+ol li{
+    font-size: 15px;
+    list-style-position: inside;
+    text-indent: -20px;
+    margin-top: 5px;
+}
+#footer{
+    display: flex;
+    border: 4px solid #4eadff;
+    box-shadow: 2px 2px 5px #989898;
+    padding:10px;
+    margin-top: 20px;
+}
+img.wheel{
+    width: 15%;
+    height: 15%;
+    padding-right:10px;
+}
+#footer_div{
+    display:inline-block;
+}
+p.footer_text{
+    font-size: 15px;
+    padding: 5px 0px;
+}
+span.italic{
+    font-size: 15px;
+    font-style: italic;
+}
